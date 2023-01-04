@@ -9,19 +9,19 @@
 
 <script>
 export default {
-    components: {},
-    data() {
-        return {
-            isActive: false,
-            hasError: true,
-            class2: ['active', 'hasError']
-        }
-    },
-    setup() {},
-    created() {},
-    mounted() {},
-    unmounted() {},
-    methods: {}
+  components: {},
+  data() {
+    return {
+      isActive: false,
+      hasError: true,
+      class2: ['active', 'hasError']
+    }
+  },
+  setup() {},
+  created() {},
+  mounted() {},
+  unmounted() {},
+  methods: {}
 }
 </script>
 

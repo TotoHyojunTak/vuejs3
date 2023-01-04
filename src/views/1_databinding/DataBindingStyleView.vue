@@ -14,20 +14,21 @@
 
 <script>
 export default {
-    components: {},
-    data() {
-        return {
-            style1: {
-                color: 'green',
-                fontSize: '30px'
-            }
-        }
-    },
-    setup() {},
-    created() {},
-    mounted() {},
-    unmounted() {},
-    methods: {}
+  components: {},
+  data () {
+    return {
+      style1: {
+        color: 'green',
+        fontSize: '30px'
+      }
+    }
+  },
+  setup() {},
+  created() {},
+  mounted() {},
+  unmounted() {},
+  methods: {
+  }
 }
 </script>
 

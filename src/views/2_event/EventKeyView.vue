@@ -9,25 +9,26 @@
 
 <script>
 export default {
-    components: {},
-    data() {
-        return {
-            sampleData: ''
-        }
-    },
-    setup() {},
-    created() {},
-    mounted() {},
-    unmounted() {},
-    methods: {
-        doSearch(){
-            console.log(this.searchText)
-        },
-        checkEnter(event){
-            if(event.keyCode === 13){
-                this.doSearch()
-            }
-        }
+  components: {},
+  data () {
+    return {
+      sampleData: ''
     }
+  },
+  setup() {},
+  created() {},
+  mounted() {},
+  unmounted() {},
+  methods: {
+    doSearch() {
+      console.log(this.searchText)
+    },
+    checkEnter(event) {
+      if (event.keyCode === 13) {
+        this.doSearch()
+      }
+    }
+  }
 }
+
 </script>
